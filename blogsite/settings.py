@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = yoaa9s7rbpgb$9(r3(@5d(ig(*ifbo4#$lx484rf!&y=
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG',cast=bool)
@@ -166,14 +166,13 @@ MESSAGE_TAGS = {
     messages.ERROR :'danger',
 }
 
-
-NPM_BIN_PATH =config('NPM_BIN_PATH')
+NPM_BIN_PATH=r"C:\Program Files\nodejs\npm.cmd"
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-SOCIAL_AUTH_FACEBOOK_KEY = config('SOCIAL_AUTH_FACEBOOK_KEY')
-SOCIAL_AUTH_FACEBOOK_SECRET = config('SOCIAL_AUTH_FACEBOOK_SECRET')
+SOCIAL_AUTH_FACEBOOK_KEY=816636626761940
+SOCIAL_AUTH_FACEBOOK_SECRET=3146c896cfc3b2c93120396b6d00cf45
 
 
 # AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
