@@ -1,4 +1,3 @@
 node_modules/
 local-cdn
 db.sqlite3
-settings.py
